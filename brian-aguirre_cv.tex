@@ -1,146 +1,121 @@
-%% start of file `cv.tex'.
-%% Brian Aguirre's Resume -  Adapted from:
-%% Myles Borins CV ~ Dec 2012
-%%
-%% Adapted from moderncv template.tex
-%% Copyright 2006-2012 Xavier Danaux (xdanaux@gmail.com).
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License version 1.3c,
 % available at http://www.latex-project.org/lppl/.
 
 
-\documentclass[10pt,a4paper,sans]{moderncv}   % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
-
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
 
 % moderncv themes
-\moderncvstyle{banking}                        % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{black}                          % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+
+% ------------------------ FONT TYPE ----------------------------
+% character encoding
+\usepackage[utf8]{helvet}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
 
 % adjust the page margins
-\usepackage[scale=0.815]{geometry}
+\usepackage[scale=0.77]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
 
 % personal data
-\firstname{Brian}
-\familyname{Aguirre}
-% \address{123 Fake St.}{Stanford, California 94305}
-
-% \mobile{}
-\email{brian.n.aguirre@gmail[dot]com}
-\homepage{brianaguirre.github.io}
-\extrainfo{www.github.com/brianaguirre}
-\twitter{@bnap48}
+\firstname{Brian Aguirre}
+\email{brian.n.aguirre@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{brianaguirre.github.io}                         % optional, remove / comment the line if not wanted
+\extrainfo{@bnap48}                 % optional, remove / comment the line if not wanted
 
 %----------------------------------------------------------------------------------
 %            content
 %----------------------------------------------------------------------------------
 \begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
 %-----       resume       ---------------------------------------------------------
 \makecvtitle
 
+%------------------- EXPERIENCE -------------------
 \section{Experience}
+
+%\cventry
+    %{year--year}
+    %{Job title}
+    %{Employer}
+    %{City}{}
+    %{Description}
 
 \cventry
   {June 2017 - Present}
-  {Developer Advocate on Cloud Platform}
-  {Google}
-  {New York City, New York}{}
-  {Collaborator on Node.js project primarily focused on governance, stability, release management, and standards work at TC39. International public speaker. Work closely with various product and engineering teams to ensure our cloud offering will be desirable to developers and follow industry best practices. }
+  {Software Developer on OSF Application}
+  {Center for Open Science}
+  {Charlottesville, Virginia}{}
+  {Collaborator on the OSF Waterbutler and MFR applications. Improve comparability and readability for various research files. In charge of updating docs for Docker installation.}
 
 \cventry
-  {October 2015 - January 2017}
-  {Node.js Collaborator}
-  {IBM}
-  {San Francisco, California}{}
-  {Full time collaborator on the Node.js project and member of the Core Technical Committee. Specific work includes release management for LTS, writing tooling for smoke testing, maintaining ecosystem stability, and general maintainership for the Node.js project.  Responsibilities include the building and signing of LTS releases for Node.js, currently the most actively downloaded and used versions of the platform. Involvement in a number of Node.js working groups including LTS, Build, HTTP, and Security.  }
+  {August 2016 - May 2017}
+  {Computer Science Research Assistant}
+  {University of Virginia, School of Engineering}
+  {Charlottesville, Virginia}{}
+  {Researched how AI and Machine Learning can help Open Source communities. Gathered data on GitHub repo's and created algorithms and tests that help determine how and why certain pull requests are accepted or denied.}
 
 \cventry
-  {April 2014 - September 2015}
-  {Head of Open Source}
-  {Famo.us}
-  {San Francisco, California}{}
-  {Responsible for managing the front line of the Famo.us community. The position was part Product Management, part Developer Relations, part Software Engineering, and a whole bunch of empathy.  During my tenure I implemented our open source workflow for release management, tooling, and process for contribution. During the Spring of 2015 I had the pleasure of organizaing jQuerySF, a single track conference that sold out with over 1000 attendees.}
+  {Spring 2017}
+  {Software Developer Extern}
+  {Center for Open Science}
+  {Charlottesville, Virginia}{}
+  {Designer and developer of the new OSF dashboard site. Personalized content by building two new features -  “Recommended” and “History”, which automated searching through research projects and COS services. Winner of week long hackathon.}
 
 \cventry
-  {September 2013 - December 2013}
-  {Teaching Assistant}
-  {Stanford University}
-  {Stanford, California}{}
-  {Teaching assistant for Music 250a: Physical Interaction Design for Music.  Responsible for teaching students unix fundamentals, introduction to embedded linux, introduction to arduino, introduction to physical computing and basic sound synthesis using tools such as puredata}
+  {January 2015 - August 2016}
+  {Computational Math Research Assistant}
+  {University of Virginia, Department of Mathematics}
+  {Charlottesville, Virginia}{}
+  {Researched nxn matrix solving algorithms. Developed code to test compiler performance on various data structures. Traveled to many cities in the U.S. to present research.}
 
 \cventry
-  {July 2013 - September 2013}
-  {Lead Front End Developer}
-  {Djz}
-  {San Francisco, California}{}
-  {Designed new development and deployment toolchain for static Angular web application.  Created web based persistent player for desktop and mobile using open source technologies and various apis.}
+  {August 2014 - January 2016}
+  {IT Assistant}
+  {Frank Batten School of Leadership \& Public Policy}
+  {Charlottesville, Virginia}{}
+  {Helped the staff, faculty, and students with various software and hardware issues. Built the frank batten community page, and created an encryption application to store sensitive student data.}
 
 \cventry
-  {July 2013 - September 2013}
-  {Future Innovation Research and Development}
-  {Cycling 74'}
-  {San Francisco, California}{}
-  {Super secret future product research and development. I can't tell you what it is, but it is pretty cool!.\newline{}http://www.cycling74.com}
+  {October 2012 - May 2014}
+  {Teaching Assistant }
+  {Fairfax County Public Schools, AVID Program}
+  {Falls Church, Virginia}{}
+  {Teaching assistant for Calculus, Physics, and Chemistry courses at various high schools of FCPS. Helped students improve grades and prepapre for IB exams. }
 
-%\cventry
-%  {June 2012 - August 2012}
-%  {Google Summer of Code 2012 Developer}
-%  {Inclusive Design Research Centre}
-%  {Toronto, Ontario}{}
-%  {Implemented "The Automagic Music Maker" a JavaScript library that offers developers and musicians the ability to generate various types of accessible and responsive instruments in the browser.}
 
-% \cventry
-%   {2010--2012}
-%   {Research Assistant}
-%   {OCAD University}
-%   {Toronto, Ontario}{}
-%   {Developed code and interaction design frameworks for various government funded research projects including "Body Editing" and "Bio Mapping" with Paula Gardiner, and "Haptics" with Michael Page.}
-
+%------------------- EDUCATION -------------------
 \section{Education}
+%\cventry {year--year} {Degree} {University of Virginia} {City} {\textit{Grade}} {Description}  % arguments 3 to 6 can be left empty
 
 \cventry
-  {September 2012 - April 2014}{MA/MST}
-  {Stanford University}{Stanford, California}
-  {\textit{Masters of Music Science and Technology}}
-  {Two year masters program at the \textit{Center for Computer Research in Music and Acoustics}.  Studies include human computer interaction design, digital signal processing, systems design, computer music composition, and site-based installation art. \\\textit{Recipient of the Denning Family Fellowship in Fine Arts }}
+  {August 2014 - May 2017}
+  {B.A.}
+  {University of Virginia}
+  {Charlottesville, Virginia}
+  {\textit{B.A. CS \& Mathematics, M.S. Mathematics Certificate}}
+  {Four year undergraduate program that led to a graduate Math program. Studies primarily focused on computational mathematics, and software engineering. Course work included advanced programming, data structures, databases, DLD, HCI, AI, Linear Algebra, and Masters topology courses. \\\textit{Recipient of VMATYC \& COSYNE scholarships, Dean's List, and UVA's Who's Who Award, etc.}}
 
-\cventry
-  {September 2009 - June 2012}
-  {BFA}
-  {OCAD University}
-  {Toronto, Ontario}
-  {\textit{Integrated Media with minor in Digital Media Studies}}
-  {Graduated on the Dean's honor list. Studies primarily focused on interactive audio/visual site-based installation art.  Other course work included physical computing, computer science, media theory, cultural rhetoric, and rapid-prototyping / manufacturing. \\\textit{Recipient of the OCAD University Medal for Integrated Media }}
 
-% \section{Awards}
-% \cventry
-%   {}{OCAD University}
-%   {OCAD University Medal in Integrated Media}
-%   {May 2012}{}
-%   {Top accolade given to one student from each department at time of graduation}
-% \cventry
-%   {}{Stanford Arts Institute}
-%   {Denning Family Fellowship in Fine Arts}
-%   {March 2012}{}{}
-% \cventry
-%   {}{OCAD University}
-%   {Project 31 Integrated Media Faculty Scholarship}
-%   {May 2011}{}{}
-% \cventry
-%   {}{OCAD University}
-%   {DFI Award}
-%   {May 2010}{}{}
-% \cventry
-%   {}{OCAD University}
-%   {InterAccess Media Prize}
-%   {May 2010}{}{}
-
+%------------------- COMPUTER SKILLS -------------------
 \section{Skills}
-\cvitem{Programming Languages}{JavaScript, C, C++, Python}
-\cvitem{Web Technologies}{Node.js, npm, HTML5, CSS, various preprocessors for both HTML / CSS, aws}
-% \cvitem{Web Frameworks / Libraries}{Angular, Famous, jQuery, browserify}
-\cvitem{Systems}{unix, docker, bash, vim, git, Shell Scripting, make, cmake}
-% \cvitem{Prototyping}{3D Printing, CNC-Milling, Laser Cutting, Wood/Metal/Plastics shop experience}
-% \cvitem{DSP}{rtaudio, Faust, Matlab, web-audio, Max/MSP, PureData, Chuck}
-% \cvitem{Project Contributor}{Node.js, npm, Yeoman, Homebrew, Flocking, OSCeleton, Https Everywhere, monome, faust}
+\cvitem{Programming Languages}{JAVA, Python, C++, JavaScript, SQL}
+\cvitem{Web Technologies}{HTML, CSS, Bootstrap, JQuery }
+\cvitem{Systems \& Methodologies}{linux, git, DLD, testing (unit, xunit), Automation, HCI.}
+\cvitem{Spoken Languages}{Fluent in English, Spanish, and French.}
+
+
+
 \end{document}
+
+
+%% end of file `template.tex'.
