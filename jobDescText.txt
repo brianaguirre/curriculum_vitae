@@ -1,0 +1,83 @@
+JAVA, Python, C++, JavaScript, SQL, HTML, CSS, Bootstrap, JQuery, UI & UX Design, Terminal, XCode, Sublime Text 3, PyCharm, Microsoft Office Tools, Arduino, Digital Logic Design. OOP, Agile (SCRUM), SDLC, TDD: Unit, System & Performance Testing, Research, Automation, HCI.
+
+
+Fluent in Spanish & French, Public Speaking, Prime Number Theory, Running & Tennis, Open Source Code & Research Advocate, Arduino Projects, Hackathons, and Diversity in STEM
+
+
+
+
+Redesigned the OSF site in order to create a more personal dashboard that features better content and other COS services.
+Built two new features -  “Recommended” and “History”, which automated searching through research projects for best content and mapped all of the untagged projects on the site through user activity. 
+Tools Used: Full stack development (SQL, php, HTML, CSS, JavaScript, Sketch), Git, GitHub, SFTP, Terminal/Command line, API: (GitHub & Center for Open Science)
+
+
+Conduct manual research on GitHub Open Source (OS) Contributions in order to better understand how OS can be improved. Catalog and create parameters which determine why a pull request (PR) was rejected or accepted on a given repo.
+Create algorithms and tests that help determine whether machine learning or AI could solve miscommunication or timing errors pertaining to PR’s on GitHub.
+Tools Used: GitHub, Python, Microsoft Office, XCode, Adobe Suite 
+
+
+Developed algorithms in order to test out Big(O) and Big(ϴ) notations for certain data structures: Hash Tables, Heaps, as well as trees. 
+Wrote a test library in order to automate testing within the data structures we looked at. Presented results for non-technical staff members. Worked with researchers at the Massachusetts Institute of Technology and published some of the code and work. 
+Tools Used:  C++, iOS, LaTex, Algorithms, SublimeText
+
+Solved software and hardware problems for iOS and Windows computers. Set up Network security for the Batten.Community site, and automated SIS data transfers.
+
+
+AVID:
+
+Teaching assistant for Calculus, Physics, and Chemistry courses at various high schools of FCPS.
+Helped students improve grades and prepapre for IB exams.
+
+
+
+Awards:
+
+VMATYC Scholarship, COSYNE 2015 Grant, Dean’s List, SEAL Award, Phi Theta Kappa, Who’s Who Among Students in American School & Colleges, UVA’s Math Grant, Merit Based Scholarships, AU’s Hackathon Winner, COS Externship Hackathon Winner.
+
+
+
+
+
+OPEN LETTER:
+
+
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+\clearpage
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
+\date{January 01, 1984}
+\opening{Dear Sir or Madam,}
+\closing{Yours faithfully,}
+\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+
+Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+Albert Einstein discovered that $e=mc^2$ in 1905.
+
+\[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+
+
+
+%\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
